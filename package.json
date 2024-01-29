@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "start": "ts-node src/index.ts",
-    "build": "tsc",
+    "build": "tsc && mkdir dist/static && cp -r src/static/* dist/static/",
     "serve": "node dist/index.js"
   },
   "keywords": [],

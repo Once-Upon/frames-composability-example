@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 import fs from "fs";
 import path from "path";
 
-const filePath = path.join(__dirname, "home.html");
+const filePath = path.join(__dirname, "static/home.html");
 
 const pokeFrame = path.join(__dirname, "static/PokeFrame.html");
 const yoink = path.join(__dirname, "static/Yoink.html");
